@@ -14,8 +14,6 @@
         <li>{{$dato}}</li>
         @endforeach
     </ul>
-
-    <a href="http://localhost:8000/marvel">Vai a marvel</a>
     
 </body>
 </html>

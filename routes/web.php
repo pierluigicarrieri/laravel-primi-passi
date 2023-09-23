@@ -27,3 +27,18 @@ Route::get('/', function () {
 
     return view('home', $data);
 });
+
+Route::get('/marvel', function () {
+
+    $data = [
+        'dati' => [
+            'batman',
+            'robin',
+            'joker',
+            'pinguino',
+            'gesucristo'
+        ]
+    ];
+
+    return view('marvel', $data);
+});
