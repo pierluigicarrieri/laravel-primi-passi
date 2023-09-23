@@ -9,5 +9,11 @@
 
     <h1>Hello world!!</h1>
     
+    <ul>
+        @foreach ($dati as $dato)
+        <li>{{$dato}}</li>
+        @endforeach
+    </ul>
+    
 </body>
 </html>
